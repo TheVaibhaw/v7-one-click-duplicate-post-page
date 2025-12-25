@@ -438,6 +438,6 @@ Full license text: [GPL-2.0 License](https://www.gnu.org/licenses/gpl-2.0.html)
 
 **WordPress Best Practices • Security First • Performance Optimized**
 
-[⬆ Back to Top](#v7-one-click-duplicate-post--page)
+[⬆ Back to Top](https://github.com/TheVaibhaw)
 
 </div>
