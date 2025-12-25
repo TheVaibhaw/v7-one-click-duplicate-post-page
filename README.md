@@ -129,7 +129,7 @@ Posts List → Select multiple posts → Bulk Actions → Duplicate → Apply
 
 ```bash
 cd /path/to/wordpress/wp-content/plugins/
-git clone https://github.com/YOUR-USERNAME/v7-one-click-duplicate.git
+git clone https://github.com/TheVaibhaw/v7-one-click-duplicate-post-page.git
 ```
 
 Then activate via WordPress admin.
@@ -196,80 +196,6 @@ Settings → Duplicate Settings → Enable your CPT → Save
 ---
 
 ## 📚 Documentation
-
-### Developer Hooks
-
-The plugin provides extensive hooks for customization:
-
-#### Action Hooks
-
-**Before Duplication**
-```php
-add_action('v7_ocd_before_duplicate', function($post_id, $original_post, $settings) {
-    // Your code before duplication
-}, 10, 3);
-```
-
-**After Duplication**
-```php
-add_action('v7_ocd_after_duplicate', function($new_post_id, $post_id, $original_post, $settings) {
-    // Your code after successful duplication
-    error_log("Post duplicated: {$post_id} → {$new_post_id}");
-}, 10, 4);
-```
-
-#### Filter Hooks
-
-**Modify Enabled Post Types**
-```php
-add_filter('v7_ocd_enabled_post_types', function($enabled_types) {
-    $enabled_types[] = 'my_custom_post_type';
-    return $enabled_types;
-});
-```
-
-**Customize New Post Data**
-```php
-add_filter('v7_ocd_new_post_data', function($new_post_data, $original_post, $settings) {
-    // Custom title format
-    $new_post_data['post_title'] = '[DUPLICATE] ' . $original_post->post_title;
-    return $new_post_data;
-}, 10, 3);
-```
-
-**Exclude Specific Meta Keys**
-```php
-add_filter('v7_ocd_excluded_meta_keys', function($excluded_meta) {
-    $excluded_meta[] = '_my_temporary_meta';
-    $excluded_meta[] = '_tracking_data';
-    return $excluded_meta;
-});
-```
-
-**Control Duplication Permissions**
-```php
-add_filter('v7_ocd_user_can_duplicate', function($can_duplicate, $post_id, $post_type) {
-    // Custom permission logic
-    if ($post_type === 'product' && !current_user_can('manage_woocommerce')) {
-        return false;
-    }
-    return $can_duplicate;
-}, 10, 3);
-```
-
-### All Available Hooks
-
-| Hook | Type | Parameters | Purpose |
-|------|------|------------|---------|
-| `v7_ocd_before_duplicate` | Action | `$post_id, $original_post, $settings` | Before duplication |
-| `v7_ocd_after_duplicate` | Action | `$new_post_id, $post_id, $original_post, $settings` | After duplication |
-| `v7_ocd_enabled_post_types` | Filter | `$enabled` | Modify enabled post types |
-| `v7_ocd_available_post_types` | Filter | `$post_types` | Modify available post types |
-| `v7_ocd_user_can_duplicate` | Filter | `$can_duplicate, $post_id, $post_type` | Control permissions |
-| `v7_ocd_new_post_data` | Filter | `$new_post_data, $original_post, $settings` | Modify post data |
-| `v7_ocd_excluded_meta_keys` | Filter | `$excluded_meta` | Exclude meta keys |
-
----
 
 ## 🛠️ Technical Details
 
