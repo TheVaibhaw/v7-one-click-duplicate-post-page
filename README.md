@@ -273,53 +273,6 @@ add_filter('v7_ocd_user_can_duplicate', function($can_duplicate, $post_id, $post
 
 ## 🛠️ Technical Details
 
-### Architecture
-
-```
-V7_One_Click_Duplicate (Main Bootstrap)
-│
-├── V7_OCD_Duplicator (Core Logic)
-│   └── Handles all duplication operations
-│
-├── V7_OCD_Permissions (Security Layer)
-│   └── Role checks, capability verification, nonce validation
-│
-├── V7_OCD_Admin_UI (User Interface)
-│   └── Row actions, admin bar, bulk actions, AJAX
-│
-└── V7_OCD_Settings (Configuration)
-    └── Settings page, options management
-```
-
-### File Structure
-
-```
-v7-one-click-duplicate/
-│
-├── v7-one-click-duplicate.php    # Main plugin bootstrap
-├── uninstall.php                  # Clean uninstall
-│
-├── includes/
-│   ├── helpers.php                # Utility functions
-│   ├── class-permissions.php      # Security & access control
-│   ├── class-duplicator.php       # Duplication engine
-│   ├── class-admin-ui.php         # UI integrations
-│   └── class-settings.php         # Settings page
-│
-├── assets/
-│   ├── css/admin.css              # Admin styling
-│   └── js/admin.js                # Admin JavaScript
-│
-├── languages/
-│   └── v7-one-click-duplicate.pot # Translation template
-│
-└── docs/
-    ├── README.md                  # This file
-    ├── DOCUMENTATION.md           # Technical deep-dive
-    ├── QUICK-START.md             # Installation guide
-    └── PROJECT-SUMMARY.md         # Feature overview
-```
-
 ### Code Quality
 
 - ✅ **WordPress Coding Standards (WPCS)** - 100% compliant
@@ -458,7 +411,7 @@ Contributions are welcome! Here's how you can help:
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR-USERNAME/v7-one-click-duplicate.git
+git clone https://github.com/TheVaibhaw/v7-one-click-duplicate-post-page.git
 
 # Create WordPress test environment
 # Install WordPress with wp-cli or Local by Flywheel
