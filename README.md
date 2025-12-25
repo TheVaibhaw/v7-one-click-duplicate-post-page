@@ -110,7 +110,7 @@ Posts List → Select multiple posts → Bulk Actions → Duplicate → Apply
 
 ### Method 1: WordPress Admin (Recommended)
 
-1. Download the latest release ZIP from [Releases](../../releases)
+1. Download the latest release ZIP from [Releases](https://github.com/TheVaibhaw/v7-one-click-duplicate-post-page/archive/refs/heads/main.zip)
 2. Go to **WordPress Admin** → **Plugins** → **Add New**
 3. Click **Upload Plugin** button
 4. Choose the downloaded ZIP file
