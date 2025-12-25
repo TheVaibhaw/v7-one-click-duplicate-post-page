@@ -1,0 +1,91 @@
+/**
+ * Admin styles for V7 One-Click Duplicate
+ *
+ * @package V7_One_Click_Duplicate
+ * @since 1.0.0
+ */
+
+/* Row action styling */
+.row-actions span.v7_duplicate a {
+	color: #2271b1;
+	text-decoration: none;
+}
+
+.row-actions span.v7_duplicate a:hover {
+	color: #135e96;
+	text-decoration: underline;
+}
+
+/* Admin bar styling */
+#wp-admin-bar-v7-duplicate-post .ab-item {
+	color: #f0f0f1;
+}
+
+#wp-admin-bar-v7-duplicate-post .ab-item:hover {
+	color: #72aee6;
+}
+
+/* Settings page styling */
+.v7-ocd-settings-section {
+	margin-bottom: 20px;
+}
+
+.v7-ocd-settings-section label {
+	display: inline-block;
+	margin-bottom: 8px;
+	font-weight: 500;
+}
+
+.v7-ocd-settings-section input[type="checkbox"] {
+	margin-right: 6px;
+}
+
+/* Bulk action feedback */
+.v7-ocd-duplicating {
+	opacity: 0.6;
+	pointer-events: none;
+}
+
+/* Loading indicator */
+.v7-ocd-loading::after {
+	content: "...";
+	animation: v7-ocd-dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes v7-ocd-dots {
+	0%, 20% {
+		content: ".";
+	}
+	40% {
+		content: "..";
+	}
+	60%, 100% {
+		content: "...";
+	}
+}
+
+/* Success feedback */
+.v7-ocd-success {
+	color: #00a32a;
+	font-weight: 600;
+}
+
+/* Error feedback */
+.v7-ocd-error {
+	color: #d63638;
+	font-weight: 600;
+}
+
+/* Admin notice styling */
+.notice.v7-ocd-notice {
+	padding: 12px;
+	border-left-width: 4px;
+}
+
+.notice.v7-ocd-notice.notice-success {
+	border-left-color: #00a32a;
+}
+
+.notice.v7-ocd-notice.notice-error {
+	border-left-color: #d63638;
+}

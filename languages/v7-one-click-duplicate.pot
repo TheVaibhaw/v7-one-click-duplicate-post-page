@@ -1,0 +1,223 @@
+# Copyright (C) 2025 Vaibhaw Kumar Parashar
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: V7 One-Click Duplicate Post & Page 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/v7-one-click-duplicate\n"
+"POT-Creation-Date: 2025-12-25 15:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/helpers.php:20
+msgid "(Copy)"
+msgstr ""
+
+#: includes/class-duplicator.php:40
+msgid "Invalid post ID."
+msgstr ""
+
+#: includes/class-duplicator.php:45
+msgid "You do not have permission to duplicate this post."
+msgstr ""
+
+#: includes/class-duplicator.php:51
+msgid "Cannot duplicate revisions."
+msgstr ""
+
+#: includes/class-duplicator.php:215
+msgid "Post duplicated successfully."
+msgstr ""
+
+#: includes/class-admin-ui.php:105
+msgid "Duplicate &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/class-admin-ui.php:106
+msgid "Duplicate"
+msgstr ""
+
+#: includes/class-admin-ui.php:130
+msgid "Duplicate This"
+msgstr ""
+
+#: includes/class-admin-ui.php:145
+msgid "Invalid post ID."
+msgstr ""
+
+#: includes/class-admin-ui.php:149
+msgid "Security check failed."
+msgstr ""
+
+#: includes/class-admin-ui.php:154
+msgid "Post not found."
+msgstr ""
+
+#: includes/class-admin-ui.php:210
+msgid "Edit duplicated post"
+msgstr ""
+
+#: includes/class-admin-ui.php:216
+msgid "%d post duplicated."
+msgid_plural "%d posts duplicated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-admin-ui.php:237
+msgid "Duplicating..."
+msgstr ""
+
+#: includes/class-admin-ui.php:238
+msgid "Duplicated!"
+msgstr ""
+
+#: includes/class-admin-ui.php:239
+msgid "Error occurred."
+msgstr ""
+
+#: includes/class-settings.php:66
+msgid "V7 One-Click Duplicate Settings"
+msgstr ""
+
+#: includes/class-settings.php:67
+msgid "Duplicate Settings"
+msgstr ""
+
+#: includes/class-settings.php:85
+msgid "Settings"
+msgstr ""
+
+#: includes/class-settings.php:103
+msgid "General Settings"
+msgstr ""
+
+#: includes/class-settings.php:109
+msgid "Duplication Options"
+msgstr ""
+
+#: includes/class-settings.php:115
+msgid "Permissions"
+msgstr ""
+
+#: includes/class-settings.php:127
+msgid "Enable for Post Types"
+msgstr ""
+
+#: includes/class-settings.php:133
+msgid "Default Post Status"
+msgstr ""
+
+#: includes/class-settings.php:139
+msgid "Title Suffix"
+msgstr ""
+
+#: includes/class-settings.php:145
+msgid "After Duplication"
+msgstr ""
+
+#: includes/class-settings.php:151
+msgid "What to Duplicate"
+msgstr ""
+
+#: includes/class-settings.php:157
+msgid "UI Options"
+msgstr ""
+
+#: includes/class-settings.php:163
+msgid "Allowed User Roles"
+msgstr ""
+
+#: includes/class-settings.php:173
+msgid "Configure basic duplication settings."
+msgstr ""
+
+#: includes/class-settings.php:181
+msgid "Choose what content to duplicate."
+msgstr ""
+
+#: includes/class-settings.php:189
+msgid "Control who can duplicate posts."
+msgstr ""
+
+#: includes/class-settings.php:212
+msgid "Draft"
+msgstr ""
+
+#: includes/class-settings.php:213
+msgid "Pending Review"
+msgstr ""
+
+#: includes/class-settings.php:214
+msgid "Private"
+msgstr ""
+
+#: includes/class-settings.php:215
+msgid "Published"
+msgstr ""
+
+#: includes/class-settings.php:237
+msgid "Text to append to duplicated post titles."
+msgstr ""
+
+#: includes/class-settings.php:253
+msgid "Stay on list page"
+msgstr ""
+
+#: includes/class-settings.php:254
+msgid "Edit duplicated post"
+msgstr ""
+
+#: includes/class-settings.php:275
+msgid "Content"
+msgstr ""
+
+#: includes/class-settings.php:276
+msgid "Excerpt"
+msgstr ""
+
+#: includes/class-settings.php:277
+msgid "Featured Image"
+msgstr ""
+
+#: includes/class-settings.php:278
+msgid "Categories & Tags"
+msgstr ""
+
+#: includes/class-settings.php:279
+msgid "Custom Fields & Meta"
+msgstr ""
+
+#: includes/class-settings.php:280
+msgid "Original Author"
+msgstr ""
+
+#: includes/class-settings.php:281
+msgid "Original Date"
+msgstr ""
+
+#: includes/class-settings.php:282
+msgid "Menu Order"
+msgstr ""
+
+#: includes/class-settings.php:301
+msgid "Show in Admin Bar"
+msgstr ""
+
+#: includes/class-settings.php:302
+msgid "Show in Gutenberg (Experimental)"
+msgstr ""
+
+#: includes/class-settings.php:327
+msgid "Users with these roles can duplicate posts (if they have edit permissions)."
+msgstr ""
+
+#: includes/class-settings.php:344
+msgid "Settings saved successfully."
+msgstr ""
+
+#: includes/class-settings.php:355
+msgid "Save Settings"
+msgstr ""
