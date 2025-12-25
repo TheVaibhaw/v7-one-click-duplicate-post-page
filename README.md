@@ -548,31 +548,8 @@ Full license text: [GPL-2.0 License](https://www.gnu.org/licenses/gpl-2.0.html)
 
 **Vaibhaw Kumar Parashar**
 
-- GitHub: [@YOUR-GITHUB-USERNAME](https://github.com/YOUR-GITHUB-USERNAME)
-- Website: [https://example.com](https://example.com)
-
----
-
-## 🙏 Acknowledgments
-
-- Built following [WordPress Plugin Development Best Practices](https://developer.wordpress.org/plugins/)
-- Inspired by the WordPress community
-- Thanks to all contributors and users
-
----
-
-## 📞 Support
-
-### Getting Help
-
-- **Documentation**: See [QUICK-START.md](QUICK-START.md) and [DOCUMENTATION.md](DOCUMENTATION.md)
-- **Issues**: [GitHub Issues](../../issues)
-- **Discussions**: [GitHub Discussions](../../discussions)
-- **WordPress Support**: WordPress.org forums (when published)
-
-### Commercial Support
-
-For priority support, custom development, or enterprise features, please contact via GitHub.
+- GitHub: [@TheVaibhaw](https://github.com/TheVaibhaw)
+- Website: [https://vaibhawkumarparashar.in](https://vaibhawkumarparashar.in)
 
 ---
 
